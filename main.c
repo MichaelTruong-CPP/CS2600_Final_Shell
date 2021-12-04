@@ -92,7 +92,7 @@ int lsh_launch(char **args)
 	return 1;
 }
 
-int lsh_execute(char *args)
+int lsh_execute(char **args)
 {
 	int i;
 
